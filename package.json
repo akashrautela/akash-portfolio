@@ -6,11 +6,13 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "parcel build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/akashrautela.github.io/Akash_Portfolio"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
@@ -18,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/akashrautelagit/simplefolio#readme",
+  "homepage": "https://github.com/akashrautela.github.io/Akash_Portfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "gh-pages": "^4.0.0",
