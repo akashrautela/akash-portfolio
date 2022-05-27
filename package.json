@@ -18,9 +18,10 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://github.com/akashrautelagit/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
